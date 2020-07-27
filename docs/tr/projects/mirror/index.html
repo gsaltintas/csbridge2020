@@ -431,6 +431,7 @@ the following properties passed in:
 
 title - problem title
 credit - problem credit (optional)
+translation - translation credit (optional)
 solution - problem solution python filename (optional)
 base - the HTML body for this template
 filePath - the total path to the markdown file being rendered in this template
@@ -444,8 +445,9 @@ filePath - the total path to the markdown file being rendered in this template
 	</h1>
 
 		<p>
-			Credit: Problem written by many folks. Solution from a lecture by Mehran Sahami.
+			Hazırlayan: Problem written by many folks. Solution from a lecture by Mehran Sahami.
 		</p>
+
 </div>
 <hr/>
 
@@ -460,12 +462,12 @@ filePath - the total path to the markdown file being rendered in this template
 </div>
 
 <!-- Solution (if included) -->
-	<h2>Solution</h2>
+	<h2>Çözüm</h2>
     <p>
     	<a class="btn btn-primary" id="soln-btn" onclick="toggleButtonText()"
-    		data-toggle="collapse" href="#soln-collapse" aria-expanded="false" 
+    		data-toggle="collapse" href="#soln-collapse" aria-expanded="false"
     		aria-controls="Collapse">
-    		Show Solution
+    		Çözümü Göster
     	</a>
     </p>
     <div class="collapse" id="soln-collapse">
@@ -528,16 +530,16 @@ if __name__ == &#039;__main__&#039;:
        editor.getSession().setMode("ace/mode/python");
        editor.setReadOnly(true);
        editor.setShowPrintMargin(false);
-       editor.renderer.setShowGutter(false); 
+       editor.renderer.setShowGutter(false);
     </script>
 
     <script>
     	function toggleButtonText() {
     		var elem = document.getElementById("soln-btn");
-    		if (elem.innerHTML.trim() === "Show Solution") {
-    			elem.innerHTML = "Hide Solution";
+    		if (elem.innerHTML.trim() === "Çözümü Göster") {
+    			elem.innerHTML = "Çözümü Gizle";
     		} else {
-    			elem.innerHTML = "Show Solution";
+    			elem.innerHTML = "Çözümü Göster";
     		}
     	}
     </script>
