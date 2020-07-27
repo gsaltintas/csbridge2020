@@ -3,7 +3,7 @@ title: Hastaneci Karel
 credit: Chris Piech
 
 Handouts: [KarelReference]({{pathToRoot}}en/resources/karel.html)<br/>
-WorkedExamples: [UNKarel]({{pathToRoot}}en/projects/unKarel/index.html),[BanishWinter]({{pathToRoot}}en/projects/banishWinter/index.html)<br/>
+Worked Examples: [UN Karel]({{pathToRoot}}en/projects/unKarel/index.html), [Banish Winter]({{pathToRoot}}en/projects/banishWinter/index.html)<br/>
 Day1: `hospital_karel.py`
 
 Dünyanın dört bir tarafındaki ülkeler, hastalanan herkesin tedavi gördüğünden emin olmak için
@@ -14,7 +14,7 @@ Karel programa satırın solunda aşağıdaki gibi başlıyor:
 
 <p>
 <center>
-<imgstyle="width:100%"src="{{pathToRoot}}img/projects/hospitalkarel/hospitalstart.png">
+	<img style="width:100%"  src="{{pathToRoot}}img/projects/hospitalkarel/hospitalstart.png">
 </center>
 </p>
 
@@ -24,7 +24,7 @@ gibi gözükmeli (üçer beeper'dan oluşan iki sütun):
 
 <p>
 <center>
-<imgstyle="width:50px"src="{{pathToRoot}}img/projects/hospitalkarel/supplies.png">
+	<img style="width:50px"  src="{{pathToRoot}}img/projects/hospitalkarel/supplies.png">
 </center>
 </p>
 
@@ -34,19 +34,17 @@ sonuç şu şekilde gözükmelidir:
 
 <p>
 <center>
-<imgstyle="width:100%"src="{{pathToRoot}}img/projects/hospitalkarel/hospitalend.png">
+	<img style="width:100%"  src="{{pathToRoot}}img/projects/hospitalkarel/hospitalend.png">
 </center>
 </p>
 
 Dünya hakkında aşağıdaki bigileri unutmayın:
 
 * Karel doğuya (east) bakarak (1, 1) koordinatlarında çantasında sonsuz sayıda beeper'la başlar.
-* Hastanelerin yerlerini gösteren beeper'lar yeterli sayıda hastane üst üste gelmeyecek ya da
+* Hastanelerin yerlerini gösteren beeper'lar yeterli sayıda hastaneyi üst üste gelmeyecek ya da
 duvarlarla çakışmayacak şekilde yerleştirileceğinden emin olabilirsiniz.
 * Son sütunda malzeme olmayacak.
 * Karel son sütunu da kapsayan bir hastane inşa ederse bitişte duvara çarpmamalı.
 
 Hastane İnşa Eden Karel projesini gerçekleştiren bir program yazın. Unutmayın, programınız
 yukarıdaki koşulları sağlayan tüm dünyalarda çalışmalıdır.
-
-
